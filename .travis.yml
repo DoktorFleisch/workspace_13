@@ -1,3 +1,8 @@
 language: bash
-before_install:
- - sudo apt-get install -y jq && sudo apt-get install -y curl
+addons:
+  apt:
+    packages:
+    - jq
+    - curl
+script:
+  - ./test.sh
