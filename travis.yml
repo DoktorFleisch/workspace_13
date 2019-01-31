@@ -1,2 +1,0 @@
-language: bash
- - sudo apt-get install -y jq && sudo apt-get install -y curl
